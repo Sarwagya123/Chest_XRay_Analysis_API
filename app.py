@@ -3,7 +3,6 @@ from flask import Flask, request, jsonify
 import numpy as np
 import pickle
 import matplotlib.pyplot as plt
-from PIL import Image
 
 model = pickle.load(open('better model.pkl','rb'))
 
